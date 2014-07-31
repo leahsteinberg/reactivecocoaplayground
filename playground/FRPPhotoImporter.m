@@ -25,7 +25,7 @@
             FRPPhotoModel *model = [FRPPhotoModel new];
             
             [self configurePhotoModel:model withDictionary:photoDictionary];
-            //[self downloadThumbnailForPhotoModel:model];
+            [self downloadThumbnailForPhotoModel:model];
             return model;
         }] array]];
         [subject sendCompleted];
@@ -40,7 +40,8 @@
 {
     FRPAppDelegate *appDelegate = (FRPAppDelegate *)[[UIApplication sharedApplication]delegate];
     
-    return [appDelegate.apiHelper urlRequestForPhotoFeature:PXAPIHelperPhotoFeaturePopular resultsPerPage:100 page:0 photoSizes:PXPhotoModelSizeThumbnail sortOrder:PXAPIHelperSortOrderRating except:PXPhotoModelCategoryNude];
+    NSURLRequest *request = [appDelegate.apiHelper urlRequestForPhotoFeature:PXAPIHelperPhotoFeaturePopular resultsPerPage:100 page:0 photoSizes:PXPhotoModelSizeThumbnail sortOrder:PXAPIHelperSortOrderRating except:PXPhotoModelCategoryNude];
+    return request;
 }
 
 + (void)configurePhotoModel:(FRPPhotoModel *)photoModel withDictionary:(NSDictionary *)dictionary

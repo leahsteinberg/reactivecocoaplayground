@@ -25,6 +25,7 @@
 		9BF609F4198A8DB900F12EB8 /* FRPGalleryFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF609F3198A8DB900F12EB8 /* FRPGalleryFlowLayout.m */; };
 		9BF609F7198A965D00F12EB8 /* FRPPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF609F6198A965D00F12EB8 /* FRPPhotoModel.m */; };
 		9BF609FA198A96E000F12EB8 /* FRPPhotoImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF609F9198A96E000F12EB8 /* FRPPhotoImporter.m */; };
+		9BF60A05198AEE6900F12EB8 /* FRPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF60A04198AEE6900F12EB8 /* FRPCell.m */; };
 		FE7C0912DFB5423189DAE95B /* libPods-playground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FCC6E9FF3474AF79F577EA6 /* libPods-playground.a */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,8 @@
 		9BF609F6198A965D00F12EB8 /* FRPPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPPhotoModel.m; sourceTree = "<group>"; };
 		9BF609F8198A96E000F12EB8 /* FRPPhotoImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPPhotoImporter.h; sourceTree = "<group>"; };
 		9BF609F9198A96E000F12EB8 /* FRPPhotoImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPPhotoImporter.m; sourceTree = "<group>"; };
+		9BF60A03198AEE6900F12EB8 /* FRPCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPCell.h; sourceTree = "<group>"; };
+		9BF60A04198AEE6900F12EB8 /* FRPCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPCell.m; sourceTree = "<group>"; };
 		9FCC6E9FF3474AF79F577EA6 /* libPods-playground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-playground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1FBAC257749423B957A0E16 /* Pods-playground.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playground.xcconfig"; path = "Pods/Pods-playground.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,6 +148,8 @@
 				9BF609F6198A965D00F12EB8 /* FRPPhotoModel.m */,
 				9BF609F8198A96E000F12EB8 /* FRPPhotoImporter.h */,
 				9BF609F9198A96E000F12EB8 /* FRPPhotoImporter.m */,
+				9BF60A03198AEE6900F12EB8 /* FRPCell.h */,
+				9BF60A04198AEE6900F12EB8 /* FRPCell.m */,
 			);
 			path = playground;
 			sourceTree = "<group>";
@@ -315,6 +320,7 @@
 				9BF609F1198A8D7500F12EB8 /* FRPGalleryViewController.m in Sources */,
 				9BF609F7198A965D00F12EB8 /* FRPPhotoModel.m in Sources */,
 				9BF609F4198A8DB900F12EB8 /* FRPGalleryFlowLayout.m in Sources */,
+				9BF60A05198AEE6900F12EB8 /* FRPCell.m in Sources */,
 				9B7D51F01989A21B0055610A /* FRPViewController.m in Sources */,
 				9B7D51E61989A21A0055610A /* main.m in Sources */,
 				9B7D51EA1989A21B0055610A /* FRPAppDelegate.m in Sources */,
