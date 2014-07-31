@@ -4,7 +4,27 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-playground-500px-iOS-api.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-playground-ReactiveCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-playground-SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-playground-libextobjc.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-playground-libffi.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>336FF2F85D9C4FE899ADF97E</key>
+		<key>1B341ED85BFB46EA811A6038</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9B1E07B2E4B14CB4AC5F02B1</key>
+		<key>21E133D735C94B3580A35165</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>863E349D068F4571AA76C078</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AC8349A4CB464039A70EDAC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D1473625835E439D98338E2B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1DCCAEEB28B4EC29442DFAF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
